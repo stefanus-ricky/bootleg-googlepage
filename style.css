@@ -1,0 +1,128 @@
+html { 
+  width:100%; 
+  height:120%; 
+}
+
+
+div{  display: inline-block;
+}
+.centered {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+
+
+span{
+  font-size:13px;
+  padding-left:10px;
+}
+
+
+
+/* middle text group */
+
+.searchbox-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 50%;
+  vertical-align: middle;
+}
+#google-png{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.search-box{
+  vertical-align: middle;
+  margin-top: 60px;
+}
+
+#search-textbox{
+  width:30%;
+  border-radius:40px;
+  height:34px;
+  border-style: solid;
+  opacity: 0.55;
+
+}
+.search-button{
+  position:absolute;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 11px;
+  height: auto;
+  opacity: 0.55;
+}
+
+/* vector images of magnifying glass */
+svg{
+  width:20px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.submit-button-container{
+  margin:20px;
+  text-align: center;
+
+}
+
+.submit-button{
+  font-family: arial,sans-serif;
+  margin: 11px 4px 11px 4px;
+  background-color: #f2f2f2;
+  border-style: solid;
+  font-size: 14px;
+  padding:10px 14px 10px 14px;
+}
+.language-text{font-size:12px;}
+
+
+
+
+
+/* top right text group */
+.top-right-text{
+  font-family: arial,sans-serif;
+  text-align: right;
+  position: fixed;
+  right:0;
+  width: auto;
+  margin: 10px 20px 0px 0px;
+  font-size: 13px;
+}
+
+.account-name{
+  display: inline-block;
+  background: black;
+  opacity: .65;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  border-radius:50%;
+  font-size: medium;
+  height: 22px;
+  width: 22px;
+  color: white;
+  margin-left:10px;
+  padding:5px;
+  font-size: 13px;
+  font-weight: bold;
+  
+}
+.square-button{
+  margin:5px;
+  background-position: -132px -38px;
+  opacity: .55;
+  background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-size: 528px 68px;
+  width: 30px;
+  height: 30px;
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+}
