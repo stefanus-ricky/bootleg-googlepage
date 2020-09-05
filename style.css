@@ -1,6 +1,6 @@
 html { 
   width:100%; 
-  height:120%; 
+  height:100%; 
 }
 
 
@@ -76,6 +76,7 @@ svg{
   margin: 11px 4px 11px 4px;
   background-color: #f2f2f2;
   border-style: solid;
+  border-width: 1px;
   font-size: 14px;
   padding:10px 14px 10px 14px;
 }
@@ -125,4 +126,71 @@ svg{
   color: black;
   display: inline-block;
   vertical-align: middle;
+}
+
+
+.bottom-container{
+  position:absolute;
+  width:100%;
+  bottom:0%;
+  right:0;
+  background-color:#f2f2f2;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(228,228,228);
+}
+
+#bottom-first{
+  display: inline-block;
+  width:100%;
+  height: 41px;
+  color:rgba(0,0,0,.54);
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  /*padding: 10px 0px 10px 30px;*/
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(228,228,228);
+}
+#bottom-first1{
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 10px 0px 10px 20px;
+
+}
+
+#bottom-second{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  color:rgba(0,0,0,.54);
+  margin: 10px 0px 10px 0px;
+
+}
+
+#bottom-bar-left{
+  text-decoration: none;
+  color:#000;
+  padding-left: 30px;
+}
+
+#bottom-bar-right{
+  float:right;
+  text-align: end;
+  text-decoration: none;
+  color:#000;
+  margin-right:30px;
+}
+
+.hyperlink-black{
+  display:inline-block;
+  text-decoration: none;
+  color:#5f6368;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin-right:10px;
+
 }
